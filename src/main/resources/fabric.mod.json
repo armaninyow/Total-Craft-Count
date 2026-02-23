@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "totalcraftcount",
+	"version": "${version}",
+	"name": "Total Craft Count",
+	"description": "Adds a preview container next to crafting GUIs showing the total number of items you can craft with your current grid setup.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/totalcraftcount/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.armaninyow.totalcraftcount.TotalCraftCount"
+		]
+	},
+	"mixins": [
+		"totalcraftcount.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

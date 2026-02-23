@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.armaninyow.totalcraftcount.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HandledScreenAccessor"
+	],
+	"mixins": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
