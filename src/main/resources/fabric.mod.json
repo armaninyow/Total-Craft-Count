@@ -5,11 +5,12 @@
 	"name": "Total Craft Count",
 	"description": "Adds a preview container next to crafting GUIs showing the total number of items you can craft with your current grid setup.",
 	"authors": [
-		"Me!"
+		"Armaninyow"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/total-craft-count",
+		"sources": "https://github.com/armaninyow/Total-Craft-Count",
+		"issues": "https://github.com/armaninyow/Total-Craft-Count/discussions/categories/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/totalcraftcount/icon.png",
